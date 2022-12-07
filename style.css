@@ -1,0 +1,30 @@
+body {
+    background-color: darkgray;
+}
+
+header {
+    background-color: #444;
+}
+
+main {
+    width: 960px;
+    margin: auto;
+}
+
+p {
+    height: 300px;
+    overflow: auto;
+}
+
+button {
+    transition: 350ms;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: #444;
+    height: 150px;
+}
