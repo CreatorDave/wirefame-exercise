@@ -11,9 +11,28 @@ main {
     margin: auto;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section {
+    display:flex;
+}
+
+article {
+    align-items: center;
+    justify-content: end;
+    flex-direction: row; 
+    grid-row: auto;
+}
+
 p {
     height: 300px;
     overflow: auto;
+    justify-content: right;
+    
 }
 
 button {
